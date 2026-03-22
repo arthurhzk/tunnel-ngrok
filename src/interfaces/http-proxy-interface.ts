@@ -10,5 +10,5 @@ export interface ProxyResponse {
   statusCode: number;
   statusMessage: string;
   headers: Record<string, string | string[]>;
-  body?: Buffer;
+  body: Buffer;
 }
